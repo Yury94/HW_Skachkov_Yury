@@ -1,0 +1,2 @@
+[Transport{power=234, maxspeed=34, weight=432, brend='BMW'}]},
+
