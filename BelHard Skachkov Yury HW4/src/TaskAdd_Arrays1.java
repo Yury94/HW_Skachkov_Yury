@@ -21,10 +21,8 @@ public class TaskAdd_Arrays1 {
         for (int i = 0; i < Array.length; i++) {
             if (Array[i] >= 0){//счетчик положительных чисел
                 sumPositive += 1;
-            }
-            if (Array[i] < 0){//счетчик отрицательных чисел
+            } else
                 sumNegative += 1;
-            }
         }
         System.out.printf("\nCумма элементов положительных чисел равна %s;\n", sumPositive);
         System.out.printf("Cумма элементов отрицательных чисел равна %s.\n", sumNegative);

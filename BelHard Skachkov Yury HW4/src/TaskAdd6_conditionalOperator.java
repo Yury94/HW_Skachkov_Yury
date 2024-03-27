@@ -8,7 +8,6 @@ public class TaskAdd6_conditionalOperator {
         int a = scanner.nextInt();
         int b = scanner.nextInt();
         int c = scanner.nextInt();
-        System.out.printf("Максимальная сумма = %d\n", Math.max(Math.max(a+b, b+c), c+a));
-        System.out.printf("Минимальная сумма = %d\n", Math.min(Math.min(a+b, b+c), c+a));
+        System.out.printf("Сумма максиьального и минимального числа = %d\n", Math.max(Math.max(a, b), c) + Math.min(Math.min(a, b), c));
     }
 }

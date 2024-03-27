@@ -7,10 +7,7 @@ public class TaskAdd7_conditionalOperator {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите число: ");
         int number = scanner.nextInt();
-        if (number %2==0) {
-            System.out.println("Введено четное число");
-        } else {
-            System.out.println("Введено нечетное число");
-        }
+        String rerult = (number % 2 == 0) ? "Введено четное число" : "Введено нечетное число";
+        System.out.println(rerult);
     }
 }

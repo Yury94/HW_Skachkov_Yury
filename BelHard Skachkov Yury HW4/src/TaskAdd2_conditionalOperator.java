@@ -8,9 +8,9 @@ public class TaskAdd2_conditionalOperator {
         System.out.println("Please enter 2 numbers: ");
         int number1 = scanner.nextInt();
         int number2 = scanner.nextInt();
-        if (number1>number2) {
+        if (number1 > number2) {
             System.out.println("Число 1 больше числа 2");
-        } else if (number1<number2) {
+        } else if (number1 < number2) {
             System.out.println("Число 1 меньше числа 2");
         } else {
             System.out.println("Число 1 и 2 равны");

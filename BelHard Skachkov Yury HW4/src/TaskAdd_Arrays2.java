@@ -17,10 +17,8 @@ public class TaskAdd_Arrays2 {
             System.out.print(Array[i] + " ");//вывод массива в консоль
         }
         int sum = 0;//инициализация переменной для подсчета четных значений
-        for (int i = 0; i < Array.length; i++) {
-            if (i % 2 == 0){
-                sum += 1;
-            }
+        for (int i = 0; i < Array.length; i+= 2) {
+            sum += 1;
         }
         System.out.printf("\nCумма элементов с четными индексами равна %s.", sum);
     }

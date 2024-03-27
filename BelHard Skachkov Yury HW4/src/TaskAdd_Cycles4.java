@@ -8,7 +8,7 @@ public class TaskAdd_Cycles4 {
         int number1 = scanner.nextInt();
         int factorial = 1;
         for (int i = 1; i <= number1; i++) {
-            factorial = factorial * i;
+            factorial *= i;
         }
         System.out.println(factorial);
     }

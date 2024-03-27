@@ -9,26 +9,8 @@ public class Task4 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите номер канала от 1 до 5, кнопка 0 - выход из программы");
         int number = scanner.nextInt();
-        switch (number) {
-            case 0:
-                System.out.printf("Выход из программы: %s\n", panelControl [0]);
-                break;
-            case 1:
-                System.out.printf("Название программы: %s\n", panelControl [1]);
-                break;
-            case 2:
-                System.out.printf("Название программы: %s\n", panelControl [2]);
-                break;
-            case 3:
-                System.out.printf("Название программы: %s\n", panelControl [3]);
-                break;
-            case 4:
-                System.out.printf("Название программы: %s\n", panelControl [4]);
-                break;
-            case 5:
-                System.out.printf("Название программы: %s\n", panelControl [5]);
-                break;
-        }
+        String result = (number >= 1 && number <= 5) ? "Название программы: " : "Выход из программы: ";
+        System.out.println(result + panelControl[number]);
 
     }
 }

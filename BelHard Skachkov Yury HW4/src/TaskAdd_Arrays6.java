@@ -19,14 +19,9 @@ public class TaskAdd_Arrays6 {
             System.out.println();
         }
         System.out.println("----------------------------------------------");
-        System.out.println("Все числа по диагонали от [0][0] до [10][10]: ");
+        System.out.println("Все числа по диагонали от [0][0] до [10][10]: ");//в данной диагонали i = j
         for (int i = 0; i < 10; i++) {
-            for (int j = 0; j < 10; j++) {
-                if (i == j) {
-                    System.out.printf("%d ", twoDimArr[i][j]);
-                }
-
-            }
+            System.out.printf("%d ", twoDimArr[i][i]);
         }
     }
 }
