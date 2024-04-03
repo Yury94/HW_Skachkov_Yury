@@ -32,10 +32,11 @@ public class Transport {
     }
 
     public double powerinkW() {
-        return (double)this.getPower() * 0.74;
+        return (double) this.getPower() * 0.74;
     }
 
     public void display() {
         System.out.printf("power: %d h.p., maxspeed: %d km/h, weight: %d kg, brend: %s; powerinkW: %.2f; ", this.power, this.maxspeed, this.weight, this.brend, this.powerinkW());
     }
 }
+

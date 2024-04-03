@@ -9,7 +9,7 @@ public class MenuAddNewObject {
         System.out.println("Enter 1 or 0:\n 1.Add object, 0 - Exit \n");
         int score = scanner.nextInt();;
         while (score == 1) {
-            System.out.println("Enter parameters new object:\n Enter power car:  ");
+            System.out.println("Enter parameters new object:\n Enter power car: ");
             int power = scanner.nextInt();
             System.out.println("Enter maxspeed car: ");
             int maxspeed = scanner.nextInt();

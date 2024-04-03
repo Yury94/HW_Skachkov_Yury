@@ -10,11 +10,10 @@ public class FileProcessorWriteRead {
     }
 
     public static void readingData() {
-        try (FileInputStream reader = new FileInputStream("src/resources/FileWriter.txt");
-             BufferedReader buffered = new BufferedReader(new InputStreamReader(reader))) {//читаем из оперативы
-            String i;
-            while ((i = buffered.readLine()) != null) {//считываем каждый байт в переменную i до тех пор пока i не станет пустым
-                System.out.print(i + "test");//добавил приставку test чтобы понимать, что я читаю из оперативной памяти
+        try (FileReader reader = new FileReader("src/resources/FileWriter.txt")) {
+            int i;//считываем каждый байт в переменную i
+            while ((i = reader.read()) != -1) {
+                System.out.print((char) i);//
             }
         } catch (IOException ex) {
             throw new RuntimeException();

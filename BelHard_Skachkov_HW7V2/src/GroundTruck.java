@@ -22,7 +22,6 @@ public class GroundTruck extends GroundTransport{
         } else {
             System.out.println("You need another truck");
         }
-
         System.out.println("---------------------------");
     }
 }

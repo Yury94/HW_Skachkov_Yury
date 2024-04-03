@@ -17,3 +17,4 @@ public class GroundTransport extends Transport{
         System.out.printf("wheels: %d items, fuel: %.2f l/100, ", this.wheels, this.getFuel());
     }
 }
+

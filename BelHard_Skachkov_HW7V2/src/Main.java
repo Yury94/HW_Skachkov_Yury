@@ -9,7 +9,6 @@ public class Main {
         carAudi.display();
         carAudi.countPlaces();
         carAudi.way();
-
         GroundTruck man = new GroundTruck(500, 200, 20000, "MAN", 6, 13.7, 56.7);
         System.out.println("Characteristics for truck:");
         man.display();

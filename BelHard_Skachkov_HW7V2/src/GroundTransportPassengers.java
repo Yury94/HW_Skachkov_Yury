@@ -47,3 +47,4 @@ public class GroundTransportPassengers extends GroundTransport{
         System.out.println("---------------------------");
     }
 }
+
